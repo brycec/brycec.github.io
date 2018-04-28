@@ -1,4 +1,3 @@
-
 (function() {
   // fetch original file name
   var s = document.scripts[document.scripts.length - 1]
