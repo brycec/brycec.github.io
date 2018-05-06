@@ -17,15 +17,13 @@
 
   // create overlay
   var o = document.createElement('div')
-  o.innerHTML = 'tap to load'
+  o.innerHTML = '<p><img src="icon.png"/></p>tap to load'
   o.style.cssText = [
     'position: fixed',
     'top: 0',
     'left: 0',
     'right: 0',
     'bottom: 0',
-    'background: rgb(128, 128, 128)',
-    'background: rgba(128, 128, 128, 0.5)',
     'color: white',
     'text-align: center',
     'padding-top: 200px',

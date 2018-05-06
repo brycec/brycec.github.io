@@ -32,15 +32,15 @@
   <style TYPE="text/css">
     /* ------- DEFINE BUTTON COLORS ------- */
     :root {
-      --btn: #1288D1;
-      --btn--pressed: #29ADFF;
+      --btn: #FF77A8;
+      --btn--pressed: #FFCCAA;
 
-      --btnIcon: #222222;
-      --btnIcon--pressed: #111111;
+      --btnIcon: #7E2553;
+      --btnIcon--pressed: #1D2B53;
 
-      --btn__analogBg: #232f37;
+      --btn__analogBg: #000000;
     }
-    body { font-family: Verdana, Arial, sans-serif; padding: 0; margin: 0; outline: none; background: #222; overflow: hidden; }
+    body { font-family: VT323, Fixed, Courier, Verdana, Arial, sans-serif; padding: 0; margin: 0; outline: none; background: #1D2B53; overflow: hidden; }
 
     /* ------ POSITION GAME-CANVAS ------ */
     canvas#canvas {
@@ -149,14 +149,10 @@
       <img
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaklEQVR4Ae2dOwoAMQhE15A+rfc/3bZ7AlMnQfywCkKsfcgMM9ZP+QHtIn0vLeBAFduiFdQ/0DmvtR5LXJ6CPSXe2ZXcFNlTxFbemKrbZPs35XogeS9xeQr+anT6LzoOwEDwZJ7jwhXUnwkTTiDQ2Ja34AAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII="
         alt="Reset" width=12 height=12/> Reset</span>
-    <span class="pico8_el" onclick="Module.pico8TogglePaused();">
-      <img
-        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAPUlEQVR4Ae3doQ0AIAxEUWABLPtPh2WCq26DwFSU/JPNT166QSu/Hg86W9dwLte+diP7AwAAAAAAgD+A+jM2ZAgo84I0PgAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII="
-        alt="Pause" width=12 height=12/> Pause</span>
     <span class="pico8_el show-if-not-touch" onclick="Module.requestFullScreen(true, false);">
       <img
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaklEQVR4Ae2dsQ1AIQhExfze1v2ns3UCrfgFhmgUUAoGgHscp21wX9BqaZoDojbB96OkDJKNcTN2BHTyYNYmoT2BlPL7BKgcPfHjAVXKKadkHOn9K1r16N0czN6a95N8mnA7Aq2fTZ3Af3UKmCSMazL8HwAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII="
-        alt="Fullscreen" width=12 height=12/> Fullscreen</span>
+        alt="Fullscreen" width=9 height=12/>Fullscreen</span>
     <span class="pico8_el" onclick="Module.pico8ToggleSound();">
       <img
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAXklEQVR4Ae2doQ4AIQxD4YLH8v9fh+ULhjpxxSwLg2uyapr1JRu1iV5Z+1BGl4+xNpX38SYo2uRvYiT5LwEmt+ocgXVLrhPEgBiw8Q5w7/kueSkK+D2tJO4E/I3GrwkqQCBabEj/4QAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII="
