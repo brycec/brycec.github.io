@@ -17,7 +17,7 @@
 
   // create overlay
   var o = document.createElement('div')
-  o.innerHTML = '<p><img src="icon.png"/></p>tap to load'
+  o.innerHTML = '<p style="font-size:10px">Warning: This game has flashing lights and loud sounds.</p><p><img src="icon.png"/></p>tap to load'
   o.style.cssText = [
     'position: fixed',
     'top: 0',
@@ -26,7 +26,7 @@
     'bottom: 0',
     'color: white',
     'text-align: center',
-    'padding-top: 200px',
+    'padding-top: 50px',
   ].map(function(p) { return p + ';' }).join('')
   document.body.appendChild(o)
 
